@@ -1,56 +1,32 @@
 # NealNote Studio
 
-NealNote Studio is a local-first desktop app that turns YouTube video URLs into
-clean transcript files and professional Word document briefs.
-
-This public repository is only for beta downloads and product information. The
-source code repository remains private during the beta period.
+NealNote Studio turns a YouTube link into a clean transcript and a polished Word
+document, saved on your computer and ready to review.
 
 ## Latest Beta
 
-Version: `v1.3.1`
+Version: `v1.3.2`
 
 Download for Windows:
 
-- [NealNote-Studio-1.3.1-x64.exe](https://github.com/irkneal/nealnote-downloads/releases/download/v1.3.1/NealNote-Studio-1.3.1-x64.exe)
-
-SHA-256:
-
-```text
-55505a0df24d74c547f41ea44945afb6c32b3a0c02a8c90b9c937697439ad89e
-```
+- [NealNote-Studio-1.3.2-x64.exe](https://github.com/irkneal/nealnote-downloads/releases/download/v1.3.2/NealNote-Studio-1.3.2-x64.exe)
 
 ## What It Does
 
 - Accepts a YouTube video URL.
-- Generates a cleaned transcript file.
-- Generates a professional Word document brief.
-- Saves output files locally on the user's machine.
-- Runs through a simple desktop UI.
+- Creates transcript and Word document outputs.
+- Saves generated files locally.
+- Runs through a focused desktop UI.
 
-## Beta Notes
+## How To Test
 
-- Windows desktop beta only.
-- The app is unsigned in this beta release, so Windows may show a security
-  prompt before first launch.
-- Generated documents stay local.
-- No source code is published in this repository.
-
-## Verify The Download
-
-PowerShell:
-
-```powershell
-Get-FileHash .\NealNote-Studio-1.3.1-x64.exe -Algorithm SHA256
-```
-
-The hash should match:
-
-```text
-55505a0df24d74c547f41ea44945afb6c32b3a0c02a8c90b9c937697439ad89e
-```
+1. Download the Windows installer.
+2. Open NealNote Studio.
+3. Paste a YouTube video URL.
+4. Select **Generate Document**.
+5. Review the saved transcript and Word document on your computer.
 
 ## Project Status
 
-`v1.3.x` is the UI beta line for NealNote Studio. It verifies the browser Studio
-and Windows desktop app flow before broader public distribution.
+`v1.3.2` is part of the NealNote Studio UI beta line. The installer is unsigned,
+so Windows may ask for confirmation before first launch.
