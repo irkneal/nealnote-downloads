@@ -5,11 +5,11 @@ document, saved on your computer and ready to review.
 
 ## Latest Beta
 
-Version: `v1.3.2`
+Version: `v1.3.3`
 
 Download for Windows:
 
-- [NealNote-Studio-1.3.2-x64.exe](https://github.com/irkneal/nealnote-downloads/releases/download/v1.3.2/NealNote-Studio-1.3.2-x64.exe)
+- [NealNote-Studio-1.3.3-x64.exe](https://github.com/irkneal/nealnote-downloads/releases/download/v1.3.3/NealNote-Studio-1.3.3-x64.exe)
 
 ## What It Does
 
@@ -28,5 +28,5 @@ Download for Windows:
 
 ## Project Status
 
-`v1.3.2` is part of the NealNote Studio UI beta line. The installer is unsigned,
+`v1.3.3` is part of the NealNote Studio UI beta line. The installer is unsigned,
 so Windows may ask for confirmation before first launch.
